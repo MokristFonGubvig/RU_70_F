@@ -391,6 +391,8 @@ let ru_1970_f = [
 		}
 ];
 
+let ru_1970_f_1 =	ru_1970_f.filter(item => item.pack == 1);
+
 let music = [
 	{
 		arr: ru_1970_f,
